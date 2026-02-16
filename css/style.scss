@@ -95,15 +95,16 @@ img {
 ===================== */
 .btn {
   display: inline-block;
-  padding: 12px 28px;
+  padding: 12px 48px;
   border-radius: 4px;
   font-weight: 600;
+  font-size: 18px;
   text-decoration: none;
   transition: all $transition;
 
   &--primary {
     border: 2px solid $color-main;
-    background: $color-main;
+    background: #333;
     color: #fff;
 
     &:hover {
