@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>おすず | コーディングポートフォリオ</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header__inner">
+            <h1 class="header__logo">
+                <a href="index.html">OSUZU</a>
+            </h1>
+            <nav class="header__nav">
+                <ul class="nav">
+                    <li class="nav__item"><a href="index.html" class="is-active">Home</a></li>
+                    <li class="nav__item"><a href="about/index.html">About</a></li>
+                    <li class="nav__item"><a href="works/index.html">Works</a></li>
+                    <li class="nav__item"><a href="contact/index.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Hero -->
+        <section class="hero">
+            <div class="container hero__inner">
+                <p class="hero__lead">HTML / SCSS コーディング対応</p>
+                <h2 class="hero__title">
+                    デザインデータから<br>
+                    正確にコーディングします
+                </h2>
+                <p class="hero__text">
+                    Figma / XD / PSD 対応<br>
+                    企業サイト・LP・下層ページ制作
+                </p>
+                <div class="hero__buttons">
+                    <a href="about/index.html" class="btn btn--primary">今取り組んでいること</a>
+                    <!-- <a href="contact/index.html" class="btn btn--secondary">お問い合わせ</a> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Strength -->
+        <section class="strength">
+            <div class="container">
+                <h2 class="section-title">大切にしていること</h2>
+                <div class="strength__list">
+                    <div class="strength__item">
+                        <h3 class="strength__title">正確な再現</h3>
+                        <p class="strength__text">
+                            デザインの雰囲気を大切にしながら、「何か違うな」をできるだけ減らせるように
+                            丁寧にコーディングします。
+                        </p>
+                    </div>
+                    <div class="strength__item">
+                        <h3 class="strength__title">保守性重視</h3>
+                        <p class="strength__text">
+                            後から見てもわかりやすいコードを意識しています。
+                            修正や追加がしやすい形で作ることを大切にしています。
+                        </p>
+                    </div>
+                    <div class="strength__item">
+                        <h3 class="strength__title">対応</h3>
+                        <p class="strength__text">
+                            こまめな連絡と柔軟な対応を心がけています。
+                            効率よくスムーズに進むよう意識しながら、
+                            「相談しやすい」と思っていただける進行を目指しています。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section class="services">
+            <div class="container">
+                <h2 class="section-title">提供できること</h2>
+                <ul class="services__list">
+                    <li class="services__item">HTML / CSS / SCSS</li>
+                    <li class="services__item">レスポンシブ対応</li>
+                    <li class="services__item">デザインデータからの実装</li>
+                    <li class="services__item">既存サイト修正</li>
+                    <li class="services__item">納期を意識したスケジュール・継続案件対応</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Works Preview -->
+        <section class="works-preview">
+            <div class="container">
+                <h2 class="section-title">コーディングサンプル</h2>
+
+                <!-- Filter -->
+                <ul class="works-filter">
+                    <li class="works-filter__item is-active" data-filter="all">All</li>
+                    <li class="works-filter__item" data-filter="corporate">Corporate</li>
+                    <li class="works-filter__item" data-filter="lp">LP</li>
+                    <li class="works-filter__item" data-filter="portfolio">Portfolio</li>
+                </ul>
+
+                <div class="works-grid">
+                    <a href="#" class="work-card" data-category="corporate">
+                        <div class="work-card__image"><img src="assets/images/noimage.png" alt="模写サイト"></div>
+                        <div class="work-card__overlay">
+                            <p class="work-card__category">Corporate Site</p>
+                            <h3 class="work-card__title">模写サイト</h3>
+                            <p class="work-card__tech">HTML / SCSS / JavaScript</p>
+                            <span class="work-card__more">Coming Soon</span>
+
+                        </div>
+                    </a>
+                    <a href="#" class="work-card" data-category="lp">
+                        <div class="work-card__image"><img src="assets/images/noimage.png" alt="LPサンプル"></div>
+                        <div class="work-card__overlay">
+                            <p class="work-card__category">Landing Page</p>
+                            <h3 class="work-card__title">LPサンプル</h3>
+                            <p class="work-card__tech">HTML / SCSS</p>
+                            <span class="work-card__more">Coming Soon</span>
+
+                        </div>
+                    </a>
+                    <a href="#" class="work-card" data-category="portfolio">
+                        <div class="work-card__image"><img src="assets/images/noimage.png" alt="ポートフォリオ"></div>
+                        <div class="work-card__overlay">
+                            <p class="work-card__category">Portfolio</p>
+                            <h3 class="work-card__title">ポートフォリオ</h3>
+                            <p class="work-card__tech">HTML / SCSS</p>
+                            <span class="work-card__more">Coming Soon</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Flow -->
+        <section class="flow">
+            <div class="container">
+                <h2 class="section-title">制作の流れ</h2>
+                <ol class="flow__list">
+                    <li class="flow__item">ヒアリング</li>
+                    <li class="flow__item">お見積り</li>
+                    <li class="flow__item">コーディング</li>
+                    <li class="flow__item">確認・修正</li>
+                    <li class="flow__item">納品</li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta">
+            <div class="container cta__inner">
+                <h2 class="cta__title">
+                    コーディングのご相談は<br>
+                    お気軽にお問い合わせください
+                </h2>
+                <a href="contact/index.html" class="btn btn--primary">お問い合わせ</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <p class="footer__text">© 2026 OSUZU Coding Portfolio</p>
+        </div>
+    </footer>
+
+    <script>
+        // Works Filter
+        const filterItems = document.querySelectorAll('.works-filter__item');
+        const workCards = document.querySelectorAll('.work-card');
+
+        filterItems.forEach(item => {
+            item.addEventListener('click', () => {
+                filterItems.forEach(i => i.classList.remove('is-active'));
+                item.classList.add('is-active');
+
+                const filter = item.dataset.filter;
+                workCards.forEach(card => {
+                    const category = card.dataset.category;
+                    card.style.display = (filter === 'all' || category === filter) ? 'block' : 'none';
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
